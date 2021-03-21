@@ -1,0 +1,90 @@
+{
+	"name": "FBTExcel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "excelcopy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "FBT-Test Load",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "FB&T.xlsx",
+				"container": "fbttst"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "App ID",
+				"type": "String"
+			},
+			{
+				"name": "Application Name",
+				"type": "String"
+			},
+			{
+				"name": "Manufacturer (Vendor)",
+				"type": "String"
+			},
+			{
+				"name": "Platform",
+				"type": "String"
+			},
+			{
+				"name": "Business Owner",
+				"type": "String"
+			},
+			{
+				"name": "Technical Owner",
+				"type": "String"
+			},
+			{
+				"name": "SDM",
+				"type": "String"
+			},
+			{
+				"name": "Architect",
+				"type": "String"
+			},
+			{
+				"name": "Business Administrator",
+				"type": "String"
+			},
+			{
+				"name": "Alias",
+				"type": "String"
+			},
+			{
+				"name": "Tiering",
+				"type": "String"
+			},
+			{
+				"name": "Exit Date as documented in Readinow",
+				"type": "String"
+			},
+			{
+				"name": "Annual Vendor Cost",
+				"type": "String"
+			},
+			{
+				"name": "Annual Services cost",
+				"type": "String"
+			},
+			{
+				"name": "Annual Hosting Cost",
+				"type": "String"
+			},
+			{
+				"name": "Total Cost",
+				"type": "String"
+			},
+			{
+				"name": "Delivery Start Date",
+				"type": "String"
+			}
+		]
+	}
+}
