@@ -1,0 +1,9 @@
+{
+	"name": "venkatadf03",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f01511ba-7b71-476d-bf64-4ee6edf5e2c8",
+		"tenantId": "69a61a1f-1525-42db-b543-14ac8138bcf8"
+	}
+}
